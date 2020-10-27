@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <!--Google Fonts Roboto Bold-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+  <!--Mapbox script and style sheets-->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="app.js"></script>
+  <title>Swimming Hole</title>
+</head>
+
+<body class="container">
+
+  <header id="header">
+    <div id="video">
+      <video autoplay muted loop id="loopVideo">
+        <source src="https://bit.ly/sp_color-text_black" type="video/mp4">
+      </video>
+    </div>
+  </header>
+  
+  <div class="buttons">
+    <button id='rivers'>Rivers</button>
+
+    <button id='waterfalls'>Waterfalls</button>
+
+    <button id='lakes'>Lakes</button>
+  </div>
+
+  <div id="map">
+
+  </div>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
